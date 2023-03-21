@@ -13,7 +13,7 @@ int main(void)
 	for (man = 0; man < 10; ++man)
 		printf("%d", man);
 
-	putchar('/n');
+	putchar('\n');
 
 	return (0);
 }
