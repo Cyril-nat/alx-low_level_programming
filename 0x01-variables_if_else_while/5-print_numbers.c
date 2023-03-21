@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	int n;
+	int man;
 
-	for (n = 0; n < 10; ++n)
-		printf("%d", n);
+	for (man = 0; man < 10; ++man)
+		printf("%d", man);
 
 	putchar('/n');
 
