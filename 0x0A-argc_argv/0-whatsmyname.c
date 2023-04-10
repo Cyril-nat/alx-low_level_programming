@@ -2,13 +2,13 @@
 
 /**
  * main - function that prints the name of the file
- * @argc: is an argument counter for char
- * @argv: is an argument value for char
+ * @argc: count of command line arguments
+ * @argv: is an array of the arguments
  * Return: Always 0 (Success)
  */
 
-int main(int __attribute__((__unused__)) argc, int argc, char *argv[])
+int main(int argc, int argc, char *argv[])
 {
-	printf("%s\n", argv[0]);
+	printf("%s\n", argv[argc - argc]);
 	return (0);
 }
