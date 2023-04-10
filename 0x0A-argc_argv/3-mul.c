@@ -11,19 +11,20 @@
 
 int main(int argc, char *argv[])
 {
-	int arg1, arg2, res;
+	int i, res = 1;
 
 	if (argc != 3)
 	{
 		printf("%s\n", "Error");
 		return (1);
 	}
-
-	arg1 = atoi(argv[1])
-	arg2 = atoi(argv[2])
-	res = arg1 * arg2;
-
-	printf("%d\n", res);
-
+	else
+	{
+		for (i = 1; i < argc; i++)
+		{
+			res *= atoi(argv[i]);
+		}
+		printf("%d\n", res);
+	}
 	return (0);
 }
