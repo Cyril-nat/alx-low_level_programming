@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i, mul;
+	int i, arg1, arg2, res;
 
 	if (argc != 3)
 	{
@@ -19,9 +19,11 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	mul = atoi(argv[1]) * atoi(argv[2]);
+	arg1 = atoi(argv[1])
+	arg2 = atoi(argv[2])
+	res = arg1 * argv[2];
 
-	printf("%d\n", mul);
+	printf("%d\n", res);
 
 	return (0);
 }
